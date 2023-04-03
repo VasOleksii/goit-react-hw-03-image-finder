@@ -1,0 +1,24 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  padding-bottom: 24px;
+}
+
+.Loader {
+  display: flex;
+  margin: 0 auto;
+}
+
+.Info {
+  justify-content: center;
+  margin: 0 auto;
+  color: #3f51b5;
+  display: flex;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  min-width: 180px;
+}
